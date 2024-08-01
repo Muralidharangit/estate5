@@ -1,0 +1,1158 @@
+<!doctype html>
+<html lang="en">
+	
+<!-- Mirrored from shreethemes.in/towntor/layouts/index-five.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Aug 2024 08:47:05 GMT -->
+<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Towntor - Real Estate Bootstrap 5 Landing Template</title>
+	    <meta name="description" content="Real Estate Bootstrap 5 Landing Template" />
+	    <meta name="keywords" content="Onepage, creative, modern, bootstrap 5, multipurpose, clean, Real Estate, buy, sell, Rent" />
+	    <meta name="author" content="Shreethemes" />
+	    <meta name="website" content="https://shreethemes.in/" />
+	    <meta name="email" content="support@shreethemes.in" />
+	    <meta name="version" content="1.0.0" />
+	    <!-- favicon -->
+        <link href="images/favicon.ico" rel="shortcut icon">
+		<!-- Bootstrap core CSS -->
+	    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+        <!-- Slider -->               
+        <link href="css/tiny-slider.css" rel="stylesheet" />
+        <!-- Tobii -->
+        <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
+	    <!--Material Icon -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+	    <!-- Custom  Css -->
+	    <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+	</head>
+
+	<body>
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <a class="logo" href="index.html">
+                    <img src="images/logo-dark.png" class="logo-light-mode" alt="">
+                    <img src="images/logo-light.png" class="logo-dark-mode" alt="">
+                </a>
+
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item ps-1 mb-0">
+                        <div class="dropdown">
+                            <button type="button" class="dropdown-toggle btn btn-sm btn-icon btn-pills btn-primary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i data-feather="search" class="icons"></i>
+                            </button>
+                            <div class="dropdown-menu dd-menu dropdown-menu-end bg-white rounded-3 border-0 mt-3 p-0" style="width: 240px;">
+                                <div class="search-bar">
+                                    <div id="itemSearch" class="menu-search mb-0">
+                                        <form role="search" method="get" id="searchItemform" class="searchform">
+                                            <input type="text" class="form-control rounded-3 border" name="s" id="searchItem" placeholder="Search...">
+                                            <input type="submit" id="searchItemsubmit" value="Search">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-inline-item ps-1 mb-0">
+                        <a href="auth-login.html" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="user" class="icons"></i></a>
+                    </li>
+                </ul>
+        
+                <div id="navigation">
+                    <ul class="navigation-menu nav-right">
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="index.html" class="sub-menu-item">Hero One</a></li>
+                                <li><a href="index-two.html" class="sub-menu-item">Hero Two</a></li>
+                                <li><a href="index-three.html" class="sub-menu-item">Hero Three</a></li>
+                                <li><a href="index-four.html" class="sub-menu-item">Hero Four</a></li>
+                                <li><a href="index-five.html" class="sub-menu-item">Hero Five </a></li>
+                                <li><a href="index-six.html" class="sub-menu-item">Hero Six</a></li>
+                                <li><a href="index-seven.html" class="sub-menu-item">Hero Seven</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="buy.html" class="sub-menu-item">Buy</a></li>
+                        
+                        <li><a href="sell.html" class="sub-menu-item">Sell</a></li>
+        
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Listing</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Grid View </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="grid.html" class="sub-menu-item">Grid Listing</a></li>
+                                        <li><a href="grid-sidebar.html" class="sub-menu-item">Grid Sidebar </a></li>
+                                    </ul> 
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> List View </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="list.html" class="sub-menu-item">List Listing</a></li>
+                                        <li><a href="list-sidebar.html" class="sub-menu-item">List Sidebar </a></li>
+                                    </ul>  
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Property Detail </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="property-detail.html" class="sub-menu-item">Property Detail</a></li>
+                                        <li><a href="property-detail-two.html" class="sub-menu-item">Property Detail Two</a></li>
+                                    </ul>  
+                                </li>
+                            </ul>
+                        </li>
+        
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="aboutus.html" class="sub-menu-item">About Us</a></li>
+                                <li><a href="features.html" class="sub-menu-item">Features</a></li>
+                                <li><a href="pricing.html" class="sub-menu-item">Pricing</a></li>
+                                <li><a href="faqs.html" class="sub-menu-item">Faqs</a></li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Auth Pages </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="auth-login.html" class="sub-menu-item">Login</a></li>
+                                        <li><a href="auth-signup.html" class="sub-menu-item">Signup</a></li>
+                                        <li><a href="auth-re-password.html" class="sub-menu-item">Reset Password</a></li>
+                                    </ul>  
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Utility </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="terms.html" class="sub-menu-item">Terms of Services</a></li>
+                                        <li><a href="privacy.html" class="sub-menu-item">Privacy Policy</a></li>
+                                    </ul>  
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Blog </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="blogs.html" class="sub-menu-item"> Blogs</a></li>
+                                        <li><a href="blog-sidebar.html" class="sub-menu-item"> Blog Sidebar</a></li>
+                                        <li><a href="blog-detail.html" class="sub-menu-item"> Blog Detail</a></li>
+                                    </ul> 
+                                </li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Special </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="comingsoon.html" class="sub-menu-item">Comingsoon</a></li>
+                                        <li><a href="maintenance.html" class="sub-menu-item">Maintenance</a></li>
+                                        <li><a href="error.html" class="sub-menu-item">404! Error</a></li>
+                                    </ul>  
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="contactus.html" class="sub-menu-item">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half-170 d-table w-100 bg-soft-primary">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="title-heading me-lg-5">
+                            <h4 class="heading fw-bold text-dark mb-3">Easy Way to Find <br> Your <span class="text-primary">Dream Home</span></h4>
+                            <p class="para-desc text-muted title-dark">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+
+                            <div >
+                                <ul class="nav nav-pills bg-white shadow border-bottom p-3 flex-row d-md-inline-flex nav-justified mb-0 rounded-top-3 position-relative overflow-hidden" id="pills-tab" role="tablist">
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link py-2 px-4 active rounded-3 fw-medium" id="buy-login" data-bs-toggle="pill" href="#buy" role="tab" aria-controls="buy" aria-selected="false">
+                                            Buy
+                                        </a><!--end nav link-->
+                                    </li><!--end nav item-->
+                                    
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link py-2 px-4 rounded-3 fw-medium" id="sold-login" data-bs-toggle="pill" href="#sold" role="tab" aria-controls="sold" aria-selected="false">
+                                            Sell
+                                        </a><!--end nav link-->
+                                    </li><!--end nav item-->
+    
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link py-2 px-4 rounded-3 fw-medium" id="rent-login" data-bs-toggle="pill" href="#rent" role="tab" aria-controls="rent" aria-selected="false">
+                                            Rent
+                                        </a><!--end nav link-->
+                                    </li><!--end nav item-->
+                                </ul>
+                                
+                                <div class="tab-content bg-white rounded-bottom-3 rounded-end-3 sm-rounded-0 shadow" id="pills-tabContent">
+                                    <div class="card border-0 tab-pane fade show active" id="buy" role="tabpanel" aria-labelledby="buy-login">
+                                        <div class="text-center subscribe-form p-4">
+                                            <form style="max-width: 800px;">
+                                                <div class="mb-0">
+                                                    <input type="text" id="help" name="name" class="shadow rounded-3 bg-white" required="" placeholder="City, Address, Zip">
+                                                    <button type="submit" class="btn btn-primary rounded-3">Search</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div><!--end teb pane-->
+        
+                                    <div class="card border-0 tab-pane fade" id="sold" role="tabpanel" aria-labelledby="sold-login">
+                                        <div class="text-center subscribe-form p-4">
+                                            <form style="max-width: 800px;">
+                                                <div class="mb-0">
+                                                    <input type="text" id="help" name="name" class="shadow rounded-3 bg-white" required="" placeholder="City, Address, Zip">
+                                                    <button type="submit" class="btn btn-primary rounded-3">Search</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div><!--end teb pane-->
+        
+                                    <div class="card border-0 tab-pane fade" id="rent" role="tabpanel" aria-labelledby="rent-login">
+                                        <div class="text-center subscribe-form p-4">
+                                            <form style="max-width: 800px;">
+                                                <div class="mb-0">
+                                                    <input type="text" id="help" name="name" class="shadow rounded-3 bg-white" required="" placeholder="City, Address, Zip">
+                                                    <button type="submit" class="btn btn-primary rounded-3">Search</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div><!--end teb pane-->
+                                </div><!--end tab content-->
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="about-right">
+                            <div class="position-relative shadow p-2 rounded-top-pill rounded-5 bg-white img-one">
+                                <a href="images/about.jpg" class="lightbox" title="">
+                                    <img src="images/about.jpg" class="img-fluid rounded-top-pill rounded-5" alt="">
+                                </a>
+    
+                                <div class="cta-video">
+                                    <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="avatar avatar-md-md rounded-pill shadow card d-flex justify-content-center align-items-center lightbox">
+                                        <i class="mdi mdi-play mdi-24px text-primary"></i>
+                                    </a>
+                                </div>
+
+                                <div class="position-absolute top-0 end-0 z-n1">
+                                    <img src="images/svg/dots.svg" class="avatar avatar-xl-large" alt="">
+                                </div>
+                            </div>
+
+                            <div class="img-two">
+                                <div class="tiny-one-item">
+                                    <div class="tiny-slide">
+                                        <div class="m-2">
+                                            <div class="shadow rounded-3 overflow-hidden p-2 bg-white">
+                                                <a href="images/property/single/2.jpg" class="lightbox" title="">
+                                                    <img src="images/property/single/2.jpg" class="img-fluid rounded-3" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tiny-slide">
+                                        <div class="m-2">
+                                            <div class="shadow rounded-3 overflow-hidden p-2 bg-white">
+                                                <a href="images/property/single/3.jpg" class="lightbox" title="">
+                                                    <img src="images/property/single/3.jpg" class="img-fluid rounded-3" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tiny-slide">
+                                        <div class="m-2">
+                                            <div class="shadow rounded-3 overflow-hidden p-2 bg-white">
+                                                <a href="images/property/single/4.jpg" class="lightbox" title="">
+                                                    <img src="images/property/single/4.jpg" class="img-fluid rounded-3" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tiny-slide">
+                                        <div class="m-2">
+                                            <div class="shadow rounded-3 overflow-hidden p-2 bg-white">
+                                                <a href="images/property/single/5.jpg" class="lightbox" title="">
+                                                    <img src="images/property/single/5.jpg" class="img-fluid rounded-3" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-3">Listing Categories</h4>
+                            <p class="text-muted para-desc mb-0">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4 mt-0">
+                    <div class="col">
+                        <div class="categories position-relative overflow-hidden rounded-3 shadow">
+                            <img src="images/property/residential.jpg" class="img-fluid" alt="">
+
+                            <div class="p-3">
+                                <a href="#" class="title text-dark fs-5 fw-medium">Residential</a>
+                                <p class="text-muted small mb-0">46 Listings</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col">
+                        <div class="categories position-relative overflow-hidden rounded-3 shadow">
+                            <img src="images/property/land.jpg" class="img-fluid" alt="">
+
+                            <div class="p-3">
+                                <a href="#" class="title text-dark fs-5 fw-medium">Land</a>
+                                <p class="text-muted small mb-0">124 Listings</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col">
+                        <div class="categories position-relative overflow-hidden rounded-3 shadow">
+                            <img src="images/property/commercial.jpg" class="img-fluid" alt="">
+
+                            <div class="p-3">
+                                <a href="#" class="title text-dark fs-5 fw-medium">Commercial</a>
+                                <p class="text-muted small mb-0">265 Listings</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col">
+                        <div class="categories position-relative overflow-hidden rounded-3 shadow">
+                            <img src="images/property/industrial.jpg" class="img-fluid" alt="">
+
+                            <div class="p-3">
+                                <a href="#" class="title text-dark fs-5 fw-medium">Industrial</a>
+                                <p class="text-muted small mb-0">452 Listings</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col">
+                        <div class="categories position-relative overflow-hidden rounded-3 shadow">
+                            <img src="images/property/investment.jpg" class="img-fluid" alt="">
+
+                            <div class="p-3">
+                                <a href="#" class="title text-dark fs-5 fw-medium">Investment</a>
+                                <p class="text-muted small mb-0">12 Listings</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-3">Featured Properties</h4>
+                            <p class="text-muted para-desc mb-0 mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row g-4 mt-0">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card property border-0 shadow position-relative overflow-hidden rounded-3">
+                            <div class="property-image position-relative overflow-hidden shadow">
+                                <img src="images/property/1.jpg" class="img-fluid" alt="">
+                                <ul class="list-unstyled property-icon">
+                                    <li class=""><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="home" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="heart" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="camera" class="icons"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="card-body content p-4">
+                                <a href="property-detail.html" class="title fs-5 text-dark fw-medium">10765 Hillshire Ave, Baton Rouge, LA 70810, USA</a>
+
+                                <ul class="list-unstyled mt-3 py-3 border-top border-bottom d-flex align-items-center justify-content-between">
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-arrow-expand-all fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">8000sqf</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-bed fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Beds</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center">
+                                        <i class="mdi mdi-shower fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Baths</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-between mt-2 mb-0">
+                                    <li class="list-inline-item mb-0">
+                                        <span class="text-muted">Price</span>
+                                        <p class="fw-medium mb-0">$5000</p>
+                                    </li>
+                                    <li class="list-inline-item mb-0 text-muted">
+                                        <span class="text-muted">Rating</span>
+                                        <ul class="fw-medium text-warning list-unstyled mb-0">
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0 text-dark">5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--end items-->
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card property border-0 shadow position-relative overflow-hidden rounded-3">
+                            <div class="property-image position-relative overflow-hidden shadow">
+                                <img src="images/property/2.jpg" class="img-fluid" alt="">
+                                <ul class="list-unstyled property-icon">
+                                    <li class=""><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="home" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="heart" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="camera" class="icons"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="card-body content p-4">
+                                <a href="property-detail.html" class="title fs-5 text-dark fw-medium">59345 STONEWALL DR, Plaquemine, LA 70764, USA</a>
+                                <ul class="list-unstyled mt-3 py-3 border-top border-bottom d-flex align-items-center justify-content-between">
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-arrow-expand-all fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">8000sqf</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-bed fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Beds</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center">
+                                        <i class="mdi mdi-shower fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Baths</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-between mt-2 mb-0">
+                                    <li class="list-inline-item mb-0">
+                                        <span class="text-muted">Price</span>
+                                        <p class="fw-medium mb-0">$5000</p>
+                                    </li>
+                                    <li class="list-inline-item mb-0 text-muted">
+                                        <span class="text-muted">Rating</span>
+                                        <ul class="fw-medium text-warning list-unstyled mb-0">
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0 text-dark">5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--end items-->
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card property border-0 shadow position-relative overflow-hidden rounded-3">
+                            <div class="property-image position-relative overflow-hidden shadow">
+                                <img src="images/property/3.jpg" class="img-fluid" alt="">
+                                <ul class="list-unstyled property-icon">
+                                    <li class=""><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="home" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="heart" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="camera" class="icons"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="card-body content p-4">
+                                <a href="property-detail.html" class="title fs-5 text-dark fw-medium">3723 SANDBAR DR, Addis, LA 70710, USA</a>
+                                <ul class="list-unstyled mt-3 py-3 border-top border-bottom d-flex align-items-center justify-content-between">
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-arrow-expand-all fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">8000sqf</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-bed fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Beds</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center">
+                                        <i class="mdi mdi-shower fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Baths</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-between mt-2 mb-0">
+                                    <li class="list-inline-item mb-0">
+                                        <span class="text-muted">Price</span>
+                                        <p class="fw-medium mb-0">$5000</p>
+                                    </li>
+                                    <li class="list-inline-item mb-0 text-muted">
+                                        <span class="text-muted">Rating</span>
+                                        <ul class="fw-medium text-warning list-unstyled mb-0">
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0 text-dark">5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--end items-->
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card property border-0 shadow position-relative overflow-hidden rounded-3">
+                            <div class="property-image position-relative overflow-hidden shadow">
+                                <img src="images/property/4.jpg" class="img-fluid" alt="">
+                                <ul class="list-unstyled property-icon">
+                                    <li class=""><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="home" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="heart" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="camera" class="icons"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="card-body content p-4">
+                                <a href="property-detail.html" class="title fs-5 text-dark fw-medium">Lot 21 ROYAL OAK DR, Prairieville, LA 70769, USA</a>
+                                <ul class="list-unstyled mt-3 py-3 border-top border-bottom d-flex align-items-center justify-content-between">
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-arrow-expand-all fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">8000sqf</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-bed fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Beds</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center">
+                                        <i class="mdi mdi-shower fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Baths</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-between mt-2 mb-0">
+                                    <li class="list-inline-item mb-0">
+                                        <span class="text-muted">Price</span>
+                                        <p class="fw-medium mb-0">$5000</p>
+                                    </li>
+                                    <li class="list-inline-item mb-0 text-muted">
+                                        <span class="text-muted">Rating</span>
+                                        <ul class="fw-medium text-warning list-unstyled mb-0">
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0 text-dark">5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--end items-->
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card property border-0 shadow position-relative overflow-hidden rounded-3">
+                            <div class="property-image position-relative overflow-hidden shadow">
+                                <img src="images/property/5.jpg" class="img-fluid" alt="">
+                                <ul class="list-unstyled property-icon">
+                                    <li class=""><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="home" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="heart" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="camera" class="icons"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="card-body content p-4">
+                                <a href="property-detail.html" class="title fs-5 text-dark fw-medium">710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</a>
+                                <ul class="list-unstyled mt-3 py-3 border-top border-bottom d-flex align-items-center justify-content-between">
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-arrow-expand-all fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">8000sqf</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-bed fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Beds</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center">
+                                        <i class="mdi mdi-shower fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Baths</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-between mt-2 mb-0">
+                                    <li class="list-inline-item mb-0">
+                                        <span class="text-muted">Price</span>
+                                        <p class="fw-medium mb-0">$5000</p>
+                                    </li>
+                                    <li class="list-inline-item mb-0 text-muted">
+                                        <span class="text-muted">Rating</span>
+                                        <ul class="fw-medium text-warning list-unstyled mb-0">
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0 text-dark">5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--end items-->
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card property border-0 shadow position-relative overflow-hidden rounded-3">
+                            <div class="property-image position-relative overflow-hidden shadow">
+                                <img src="images/property/6.jpg" class="img-fluid" alt="">
+                                <ul class="list-unstyled property-icon">
+                                    <li class=""><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="home" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="heart" class="icons"></i></a></li>
+                                    <li class="mt-1"><a href="javascript:void(0)" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="camera" class="icons"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="card-body content p-4">
+                                <a href="property-detail.html" class="title fs-5 text-dark fw-medium">5133 MCLAIN WAY, Baton Rouge, LA 70809, USA</a>
+                                <ul class="list-unstyled mt-3 py-3 border-top border-bottom d-flex align-items-center justify-content-between">
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-arrow-expand-all fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">8000sqf</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="mdi mdi-bed fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Beds</span>
+                                    </li>
+    
+                                    <li class="d-flex align-items-center">
+                                        <i class="mdi mdi-shower fs-5 me-2 text-primary"></i>
+                                        <span class="text-muted">4 Baths</span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-between mt-2 mb-0">
+                                    <li class="list-inline-item mb-0">
+                                        <span class="text-muted">Price</span>
+                                        <p class="fw-medium mb-0">$5000</p>
+                                    </li>
+                                    <li class="list-inline-item mb-0 text-muted">
+                                        <span class="text-muted">Rating</span>
+                                        <ul class="fw-medium text-warning list-unstyled mb-0">
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item mb-0 text-dark">5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--end items-->
+                    </div><!--end col-->
+
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="text-center">
+                            <a href="grid.html" class="mt-3 fs-6 text-primary">View More Properties <i class="mdi mdi-arrow-right align-middle"></i></a>
+                        </div>
+                    </div>
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container-fluid bg-building-pic mt-100 mt-60">
+                <div class="bg-overlay opacity-25" style="background: url('images/map.png') center center;"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <div class="section-title text-center mb-4 pb-2">
+                                <h4 class="title mb-3">Trusted by more than 10K users</h4>
+                                <p class="text-muted para-desc mb-0 mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+
+                    <div class="row">
+                        <div class="col-4 py-3">
+                            <div class="counter-box text-center">
+                                <h1 class="mb-0 fw-semibold"><span class="counter-value" data-target="1548">1</span>+</h1>
+                                <h6 class="counter-head text-muted fw-normal">Investment</h6>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+    
+                        <div class="col-4 py-3">
+                            <div class="counter-box text-center">
+                                <h1 class="mb-0 fw-semibold"><span class="counter-value" data-target="25">1</span>+</h1>
+                                <h6 class="counter-head text-muted fw-normal">Awards</h6>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+    
+                        <div class="col-4 py-3">
+                            <div class="counter-box text-center">
+                                <h1 class="mb-0 fw-semibold"><span class="counter-value" data-target="9">1</span>+</h1>
+                                <h6 class="counter-head text-muted fw-normal">Profitability</h6>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-3">Property Broker</h4>
+                            <p class="text-muted para-desc mb-0 mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row g-4 mt-0">
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card team team-primary text-center">
+                            <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
+                                <img src="images/client/04.jpg" class="img-fluid" alt="">
+                                <div class="card-overlay avatar avatar-ex-large rounded-pill"></div>
+
+                                <ul class="list-unstyled team-social mb-0">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="facebook" class="icons fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="instagram" class="icons fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="twitter" class="icons fea-social"></i></a></li>
+                                </ul><!--end icon-->
+                            </div>
+
+                            <div class="content mt-3">
+                                <a href="page-team-detail.html" class="text-dark h5 mb-0 title">Jack John</a>
+                                <h6 class="text-muted mb-0 fw-normal">Broker</h6>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card team team-primary text-center">
+                            <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
+                                <img src="images/client/05.jpg" class="img-fluid" alt="">
+                                <div class="card-overlay avatar avatar-ex-large rounded-pill"></div>
+
+                                <ul class="list-unstyled team-social mb-0">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="facebook" class="icons fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="instagram" class="icons fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="twitter" class="icons fea-social"></i></a></li>
+                                </ul><!--end icon-->
+                            </div>
+
+                            <div class="content mt-3">
+                                <a href="page-team-detail.html" class="text-dark h5 mb-0 title">Krista John</a>
+                                <h6 class="text-muted mb-0 fw-normal">Broker</h6>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card team team-primary text-center">
+                            <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
+                                <img src="images/client/06.jpg" class="img-fluid" alt="">
+                                <div class="card-overlay avatar avatar-ex-large rounded-pill"></div>
+
+                                <ul class="list-unstyled team-social mb-0">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="facebook" class="icons fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="instagram" class="icons fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="twitter" class="icons fea-social"></i></a></li>
+                                </ul><!--end icon-->
+                            </div>
+
+                            <div class="content mt-3">
+                                <a href="page-team-detail.html" class="text-dark h5 mb-0 title">Roger Jackson</a>
+                                <h6 class="text-muted mb-0 fw-normal">Broker</h6>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card team team-primary text-center">
+                            <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
+                                <img src="images/client/07.jpg" class="img-fluid" alt="">
+                                <div class="card-overlay avatar avatar-ex-large rounded-pill"></div>
+
+                                <ul class="list-unstyled team-social mb-0">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="facebook" class="icons fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="instagram" class="icons fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-icon"><i data-feather="twitter" class="icons fea-social"></i></a></li>
+                                </ul><!--end icon-->
+                            </div>
+
+                            <div class="content mt-3">
+                                <a href="page-team-detail.html" class="text-dark h5 mb-0 title">Johnny English</a>
+                                <h6 class="text-muted mb-0 fw-normal">Broker</h6>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-3">What Our Client Say ?</h4>
+                            <p class="text-muted para-desc mb-0 mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-7 mt-4">
+                        <i class="mdi mdi-format-quote-open display-1 position-absolute start-0 top-0" style="opacity: 0.05;"></i>
+                        <i class="mdi mdi-format-quote-open display-1 position-absolute end-0 bottom-0" style="opacity: 0.05;"></i>
+                        <div class="tiny-single-item">
+                            <div class="tiny-slider client-testi">
+                                <div class="text-center">
+                                    <div class="m-2">
+                                        <img src="images/client/01.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                                        <div class="flex-1 mt-4">
+                                            <h6 class="mb-0">Young Bonetti</h6>
+                                            <small class="text-muted">Product Manager</small>
+                                        </div>
+                                        
+                                        <p class="text-muted fst-italic mb-0 mt-3">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. "</p>
+                                        
+                                        <ul class="list-unstyled mb-0 mt-3 text-warning fs-6">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slider client-testi">
+                                <div class="text-center">
+                                    <div class="m-2">
+                                        <img src="images/client/02.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                                        <div class="flex-1 mt-4">
+                                            <h6 class="mb-0">Ofelia Bell</h6>
+                                            <small class="text-muted">Product Manager</small>
+                                        </div>
+                                        
+                                        <p class="text-muted fst-italic mb-0 mt-3">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. "</p>
+                                        
+                                        <ul class="list-unstyled mb-0 mt-3 text-warning fs-6">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slider client-testi">
+                                <div class="text-center">
+                                    <div class="m-2">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                                        <div class="flex-1 mt-4">
+                                            <h6 class="mb-0">Barbara Carpenter</h6>
+                                            <small class="text-muted">Product Manager</small>
+                                        </div>
+                                        
+                                        <p class="text-muted fst-italic mb-0 mt-3">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. "</p>
+                                        
+                                        <ul class="list-unstyled mb-0 mt-3 text-warning fs-6">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slider client-testi">
+                                <div class="text-center">
+                                    <div class="m-2">
+                                        <img src="images/client/04.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                                        <div class="flex-1 mt-4">
+                                            <h6 class="mb-0">Jesus Day</h6>
+                                            <small class="text-muted">Product Manager</small>
+                                        </div>
+                                        
+                                        <p class="text-muted fst-italic mb-0 mt-3">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. "</p>
+                                        
+                                        <ul class="list-unstyled mb-0 mt-3 text-warning fs-6">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slider client-testi">
+                                <div class="text-center">
+                                    <div class="m-2">
+                                        <img src="images/client/05.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                                        <div class="flex-1 mt-4">
+                                            <h6 class="mb-0">Jennifer Smith</h6>
+                                            <small class="text-muted">Product Manager</small>
+                                        </div>
+                                        
+                                        <p class="text-muted fst-italic mb-0 mt-3">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. "</p>
+                                        
+                                        <ul class="list-unstyled mb-0 mt-3 text-warning fs-6">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slider client-testi">
+                                <div class="text-center">
+                                    <div class="m-2">
+                                        <img src="images/client/06.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                                        <div class="flex-1 mt-4">
+                                            <h6 class="mb-0">Michael Wilkes</h6>
+                                            <small class="text-muted">Product Manager</small>
+                                        </div>
+                                        
+                                        <p class="text-muted fst-italic mb-0 mt-3">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. "</p>
+                                        
+                                        <ul class="list-unstyled mb-0 mt-3 text-warning fs-6">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-3">Blogs or News</h4>
+                            <p class="text-muted para-desc mb-0 mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row g-4 mt-0">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card blog blog-primary shadow rounded-3 overflow-hidden border-0">
+                            <div class="card-img blog-image position-relative overflow-hidden rounded-0">
+                                <div class="position-relative overflow-hidden">
+                                    <img src="images/property/1.jpg" class="img-fluid" alt="">
+                                    <div class="card-overlay"></div>
+                                </div>
+
+                                <div class="blog-tag p-3">
+                                    <a href="#" class="badge bg-primary">Towntor</a>
+                                </div>
+                            </div>
+
+                            <div class="card-body content p-0">
+                                <div class="p-4">
+                                    <a href="blog-detail.html" class="title fw-medium fs-5 text-dark">Skills That You Can Learn In The Real Estate Market</a>
+                                    <p class="text-muted mt-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+
+                                    <a href="#" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card blog blog-primary shadow rounded-3 overflow-hidden border-0">
+                            <div class="card-img blog-image position-relative overflow-hidden rounded-0">
+                                <div class="position-relative overflow-hidden">
+                                    <img src="images/property/2.jpg" class="img-fluid" alt="">
+                                    <div class="card-overlay"></div>
+                                </div>
+
+                                <div class="blog-tag p-3">
+                                    <a href="#" class="badge bg-primary">Towntor</a>
+                                </div>
+                            </div>
+
+                            <div class="card-body content p-0">
+                                <div class="p-4">
+                                    <a href="blog-detail.html" class="title fw-medium fs-5 text-dark">Learn The Truth About Real Estate Industry</a>
+                                    <p class="text-muted mt-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+
+                                    <a href="#" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card blog blog-primary shadow rounded-3 overflow-hidden border-0">
+                            <div class="card-img blog-image position-relative overflow-hidden rounded-0">
+                                <div class="position-relative overflow-hidden">
+                                    <img src="images/property/3.jpg" class="img-fluid" alt="">
+                                    <div class="card-overlay"></div>
+                                </div>
+
+                                <div class="blog-tag p-3">
+                                    <a href="#" class="badge bg-primary">Towntor</a>
+                                </div>
+                            </div>
+
+                            <div class="card-body content p-0">
+                                <div class="p-4">
+                                    <a href="blog-detail.html" class="title fw-medium fs-5 text-dark">10 Quick Tips About Business Development</a>
+                                    <p class="text-muted mt-2">The most well-known dummy text is the 'Lorem Ipsum', in the 16th century.</p>
+
+                                    <a href="#" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Footer Start -->
+        <section class="bg-building-pic d-table w-100" style="background: url('images/building.png') bottom no-repeat;"></section>
+        <footer class="bg-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-60 footer-border">
+                            <div class="row">
+                                <div class="col-lg-5 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                                    <a href="#" class="logo-footer">
+                                        <img src="images/logo-light.png" alt="">
+                                    </a>
+                                    <p class="mt-4">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        <li class="list-inline-item"><a href="https://1.envato.market/towntor" target="_blank" class="rounded-3"><i data-feather="shopping-cart" class="fea icon-sm align-middle" title="Buy Now"></i></a></li>
+                                        <li class="list-inline-item"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded-3"><i data-feather="dribbble" class="fea icon-sm align-middle" title="dribbble"></i></a></li>
+                                        <li class="list-inline-item"><a href="http://linkedin.com/company/shreethemes" target="_blank" class="rounded-3"><i data-feather="linkedin" class="fea icon-sm align-middle" title="Linkedin"></i></a></li>
+                                        <li class="list-inline-item"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded-3"><i data-feather="facebook" class="fea icon-sm align-middle" title="facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded-3"><i data-feather="instagram" class="fea icon-sm align-middle" title="instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="https://x.com/shreethemes" target="_blank" class="rounded-3"><i data-feather="twitter" class="fea icon-sm align-middle" title="twitter"></i></a></li>
+                                        <li class="list-inline-item"><a href="mailto:support@shreethemes.in" class="rounded-3"><i data-feather="mail" class="fea icon-sm align-middle" title="email"></i></a></li>
+                                    </ul><!--end icon-->
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h5 class="footer-head">Company</h5>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> About us</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Services</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Team</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Pricing</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Project</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Careers</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Blog</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Login</a></li>
+                                    </ul>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h5 class="footer-head">Usefull Links</h5>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Terms of Services</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Privacy Policy</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Listing</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right align-middle me-1"></i> Contact us</a></li>
+                                    </ul>
+                                </div><!--end col-->
+            
+                                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h5 class="footer-head">Contact Details</h5>
+
+                                    <div class="d-flex mt-4">
+                                        <i data-feather="map-pin" class="fea icon-sm text-primary mt-1 me-3"></i>
+                                        <div class="">
+                                            <p class="mb-2">C/54 Northwest Freeway, <br> Suite 558, <br> Houston, USA 485</p>
+                                            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" data-type="iframe" class="text-primary lightbox">View on Google map</a>
+                                        </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-4">
+                                        <i data-feather="mail" class="fea icon-sm text-primary mt-1 me-3"></i>
+                                        <a href="mailto:contact@example.com" class="text-foot">contact@example.com</a>
+                                    </div>
+                                    
+                                    <div class="d-flex mt-4">
+                                        <i data-feather="phone" class="fea icon-sm text-primary mt-1 me-3"></i>
+                                        <a href="tel:+152534-468-854" class="text-foot">+152 534-468-854</a>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-bar">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <div class="text-center">
+                                <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Towntor. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- Footer End -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-pill fs-5"><i data-feather="arrow-up" class="fea icon-sm align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- JAVASCRIPTS -->
+	    <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Tiny slider -->
+        <script src="js/tiny-slider.js"></script>
+        <!-- Tobii -->
+        <script src="js/tobii.min.js"></script>
+        <!-- Icons -->
+        <script src="js/feather.min.js"></script>
+	    <!-- Custom -->
+	    <script src="js/plugins.init.js"></script>
+	    <script src="js/app.js"></script>
+    </body>
+
+<!-- Mirrored from shreethemes.in/towntor/layouts/index-five.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Aug 2024 08:47:07 GMT -->
+</html>
